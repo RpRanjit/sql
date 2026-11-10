@@ -6,7 +6,7 @@ FROM employee;
 
 SELECT COUNT(emp_id)
 FROM employee
-WHERE sex = 'F' and birth_date >= '1970-01-01'
+WHERE sex = 'F' and birth_date >= '1970-01-02'
 
 /* find the average of all emloyees salaries */
 SELECT AVG(salary)
